@@ -21,6 +21,7 @@ p {
   height: 100px;
   background-size: cover;
   background-color:#223;
+  cursor: pointer;
   
 }
 nav {
@@ -128,8 +129,8 @@ nav ul li a:hover:after {
 }
 
 
-.box {
-  --border-size: 3px;
+/*.box {
+  --border-size: 1px;
   --border-angle: 0turn;
   position:absolute;
   top:-5%;
@@ -162,7 +163,15 @@ nav ul li a:hover:after {
   syntax: "<angle>";
   inherits: true;
   initial-value: 0turn;
+}*/
+.blog{
+  cursor: pointer;
+    background-color: rgb(158, 57, 104);
+    padding: 15px;
+    border-radius: 10px;
+    color:white;
 }
+
 
 
 
