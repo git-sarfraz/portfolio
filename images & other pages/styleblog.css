@@ -1,0 +1,82 @@
+
+button {
+    margin: 20px;
+  }
+  .btn {
+    width: 95px;
+    height: 20px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+    left:5%;
+    display: inline-block;
+    outline: none;
+  }
+  .btn {
+    background:rgb(206, 98, 174);
+    border: none;
+  }
+  .btn:hover {
+     background: rgb(252, 252, 252);
+  background:linear-gradient(0deg,rgb(212, 151, 185), rgb(179, 117, 160));
+  }
+  
+/*.p{
+color:rgb(255, 254, 254);
+font-size: 25px;
+font-weight: 600;}*/
+
+
+.p::selection{
+color:#fcfcfd;
+background-color:#f6bfe2;
+}
+.code{
+    background-color: rgb(158, 57, 104);
+    padding: 15px;
+    border-radius: 10px;
+}
+.code:hover{
+    background-color:rgb(219, 138, 198);
+    color:black;
+}
+.op{
+    background-color:  rgb(11, 114, 7);
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30px;
+}
+.op:hover{
+    background-color: rgb(103, 151, 105);
+    color:black
+}
+.li{
+    font-size: 25px;
+    padding: 15px;
+}
+.top{
+    background-color: rgb(97, 19, 93);
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+.top:hover{
+    background-color: rgb(196, 155, 155);
+    color :black;
+}
+body{
+    background-color:black;
+    color:white;
+   
+    
+    
+
+}
+.explain{
+    padding-left:2%;
+}
