@@ -64,6 +64,7 @@ top:0%;
 left:124%;
 height:115%;
 object-position:left top;
+  radius : 50%;
 }
 nav ul li a:hover:after {
   width: 100%;
@@ -128,43 +129,6 @@ nav ul li a:hover:after {
   margin-bottom: 30px;
 }
 
-
-/*.box {
-  --border-size: 1px;
-  --border-angle: 0turn;
-  position:absolute;
-  top:-5%;
-  left:122%;
-  width: 42%;
-  height: 115%;
-  background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
-  background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-animation: bg-spin 3s linear infinite;
-          animation: bg-spin 3s linear infinite;
-}
-@-webkit-keyframes bg-spin {
-  to {
-    --border-angle: 1turn;
-  }
-}
-@keyframes bg-spin {
-  to {
-    --border-angle: 1turn;
-  }
-}
-.box:hover {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
-@property --border-angle {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0turn;
-}*/
-.blog{
   cursor: pointer;
     background-color: rgb(158, 57, 104);
     padding: 15px;
